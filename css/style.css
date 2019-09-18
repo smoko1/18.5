@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  background: #aaa; }
+
+#app {
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  margin: auto;
+  background: #ccc;
+  text-align: center; }
+
+.contactsList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.contactItemSpace {
+  margin: 10px; }
+
+.contactItemSpace:hover > .contactItem {
+  box-shadow: #666 2px 2px 3px;
+  transform: translate(2px, 2px);
+  background: #aaa; }
+
+.contactItem {
+  padding: 20px;
+  background: #777;
+  transition: 0.1s;
+  border-radius: 2px; }
+
+.contactForm {
+  background: #999;
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+  border: 3px solid #666;
+  border-radius: 10px;
+  box-shadow: #666 2px 2px 3px; }
+
+input::placeholder {
+  color: black;
+  font-weight: 700;
+  opacity: 1; }
+
+button {
+  color: black;
+  font-weight: 700;
+  opacity: 1; }
+
+input, button {
+  margin: 10px;
+  padding: 2px 5px;
+  background: #bbb;
+  border: 1px solid #666;
+  border-radius: 2px;
+  transition: 0.1s; }
+  input:hover, input:focus, button:hover, button:focus {
+    transform: translate(1px, 1px);
+    box-shadow: #666 2px 1px 2px;
+    background: #aaa;
+    outline: none; }
+
+/*# sourceMappingURL=style.css.map */
